@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cakeshop</string>
+    <string name="welcome">Welcome</string>
+    <string name="cake">CAKE IMAGE</string>
+    <string name="strw">strwaberry</string>
+    <string name="start">Start</string>
+    <string name="share">Share</string>
+    <string name="what_is_your_good_name">WHAT IS YOUR GOOD NAME</string>
+</resources>

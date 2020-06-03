@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fisrtactivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sc2text"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="20sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cake"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+
+        android:layout_gravity="center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/c1"
+        android:layout_width="188dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:src="@drawable/cake3">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="chocolate "
+        android:id="@+id/t1"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:src="@drawable/cake4"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/strw"
+        android:id="@+id/t2"
+        android:textSize="16sp"></TextView>
+
+
+
+
+
+
+</LinearLayout>
